@@ -46,6 +46,11 @@
         "status" : "working"
     },
     {
+        "name" : "Muhammad Ferary",
+        "image": "feri.jpg",
+        "status" : "terminated"
+    },
+    {
         "name" : "Mhd. Mahmudi Zukri Lubis",
         "image": "zukri.jpg",
         "status" : "working"
