@@ -36,7 +36,7 @@
         <template x-for="user in users">
           <div class="flex group items-center out" :class="user.status">
             <div
-              class="w-16 h-16 bg-gray-400 p-1 rounded-full z-50 group-[.resign]:bg-green-400 group-[.terminated]:bg-red-500"
+              class="w-16 h-16 bg-gray-400 p-1 rounded-full z-50 group-[.resign]:bg-green-400 group-[.lulus]:bg-blue-500"
             >
               <img
                 class="w-full h-full rounded-full bg-cover"
@@ -45,10 +45,10 @@
               />
             </div>
             <div
-              class="relative bg-gray-300 h-14 flex items-center p-2 -ms-[16px] rounded-e-xl group-[.resign]:bg-green-400 group-[.terminated]:bg-red-500"
+              class="relative bg-gray-300 h-14 flex items-center p-2 -ms-[16px] rounded-e-xl group-[.resign]:bg-green-400 group-[.lulus]:bg-blue-500"
             >
               <p
-                class="absolute text-sm text-black inset-0 shadow-md m-auto flex justify-center -top-16 px-2 py-1 rounded-3xl bg-gray-300 w-fit h-fit group-[.resign]:bg-green-400 group-[.terminated]:bg-red-500 border font-semibold"
+                class="absolute text-sm text-black inset-0 shadow-md m-auto flex justify-center -top-16 px-2 py-1 rounded-3xl bg-gray-300 w-fit h-fit group-[.resign]:bg-green-400 group-[.lulus]:bg-blue-500 border font-semibold"
                 :class="{'hidden' : user.status === 'working' }"
                 x-html="user.status"
               ></p>
