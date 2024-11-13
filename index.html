@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IT Member</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/alpinejs" defer></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      .font-doto {
+        font-family: "Doto", sans-serif;
+      }
+    </style>
+  </head>
+  <body x-data="memberScript()" class="bg-slate-900 font-doto p-5">
+    <div class="flex flex-col text-3xl">
+      <div class="mb-10 flex justify-center">
+        <p
+          class="w-fit h-fit p-2 font-semibold text-center bg-white rounded-xl text-black"
+        >
+          * IT Member*
+        </p>
+      </div>
+
+      <div class="flex gap-10 justify-center flex-wrap">
+        <template x-for="user in users">
+          <div class="flex group items-center out" :class="user.status">
+            <div
+              class="w-16 h-16 bg-gray-400 p-1 rounded-full z-50 group-[.resign]:bg-yellow-400 group-[.terminated]:bg-red-500"
+            >
+              <img
+                class="w-full h-full rounded-full bg-cover"
+                :src="`images/${user.image}`"
+                alt="image"
+              />
+            </div>
+            <div
+              class="relative bg-gray-300 h-14 flex items-center p-2 -ms-[16px] rounded-e-xl group-[.resign]:bg-yellow-400 group-[.terminated]:bg-red-500"
+            >
+              <p
+                class="absolute text-sm text-black inset-0 shadow-md m-auto flex justify-center -top-16 px-2 py-1 rounded-3xl bg-gray-300 w-fit h-fit group-[.resign]:bg-yellow-400 group-[.terminated]:bg-red-500 border font-semibold"
+                :class="{'hidden' : user.status === 'working' }"
+                x-html="user.status"
+              ></p>
+              <div class="ms-4">
+                <p
+                  class="text-lg font-semibold group-[.resign]:text-black"
+                  x-html="user.name"
+                ></p>
+              </div>
+            </div>
+          </div>
+        </template>
+      </div>
+    </div>
+  </body>
+  <script>
+    function memberScript() {
+      return {
+        users: [],
+        init() {
+          fetch("index.json")
+            .then((response) => response.json())
+            .then((data) => {
+              this.users = data;
+            })
+            .catch((error) => console.error("Error loading JSON", error));
+        },
+      };
+    }
+  </script>
+</html>

@@ -1,0 +1,73 @@
+[
+    {
+        "name" : "Aidil Febrian",
+        "image": "aidil.jpg",
+        "status" : "working"
+    },
+    {
+        "name" : "Aji surya",
+        "image": "aji.jpg",
+        "status" : "working"
+    },
+    {
+        "name" : "Aldo Leonardi",
+        "image": "aldo.jpg",
+        "status" : "working"
+    },
+    
+    {
+        "name" : "Astrid Melani Nainggolan",
+        "image": "astrid.jpg",
+        "status" : "resign"
+    },
+    {
+        "name" : "Farhan Febryan",
+        "image": "farhan.jpg",
+        "status" : "working"
+    },
+    {
+        "name" : "Isramiraza Ilma Redanda",
+        "image": "isra.jpg",
+        "status" : "working"
+    },
+    {
+        "name" : "M Taufik Kamil",
+        "image": "taufik.jpg",
+        "status" : "working"
+    },
+    {
+        "name" : "Mhd. Mahmudi Zukri Lubis",
+        "image": "zukri.jpg",
+        "status" : "working"
+    },
+    {
+        "name" : "Muhammad Arizki",
+        "image": "arizky.jpg",
+        "status" : "working"
+    },
+    {
+        "name" : "Ramli S. Siburian",
+        "image": "ramli.jpg",
+        "status" : "working"
+    },
+    {
+        "name" : "Revangga Prakusya",
+        "image": "reva.jpg",
+        "status" : "working"
+    },
+    {
+        "name" : "Ricki Rinaldi Manik",
+        "image": "ricki.jpg",
+        "status" : "working"
+    },
+    {
+        "name" : "Rudianto Sihombing",
+        "image": "rudi.jpg",
+        "status" : "working"
+    },
+    {
+        "name" : "Yusni Nasution",
+        "image": "yusni.jpg",
+        "status" : "working"
+    }
+]
