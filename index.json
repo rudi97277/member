@@ -17,13 +17,18 @@
     
     {
         "name" : "Astrid Melani Nainggolan",
-        "image": "deni.jpg",
+        "image": "astrid.jpg",
         "status" : "resign"
     },
     {
         "name" : "Denny mario",
-        "image": "astrid.jpg",
+        "image": "deni.jpg",
         "status" : "resign"
+    },
+    {
+        "name" : "Dea Ananda Dwi Pertiwi",
+        "image": "dea.jpg",
+        "status" : "terminated"
     },
     {
         "name" : "Farhan Febryan",
