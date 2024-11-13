@@ -17,6 +17,11 @@
     
     {
         "name" : "Astrid Melani Nainggolan",
+        "image": "deni.jpg",
+        "status" : "resign"
+    },
+    {
+        "name" : "Denny mario",
         "image": "astrid.jpg",
         "status" : "resign"
     },
