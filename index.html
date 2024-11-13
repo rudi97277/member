@@ -87,7 +87,7 @@
       return {
         users: [],
         init() {
-          fetch("index.json?v=2")
+          fetch("index.json?v=3")
             .then((response) => response.json())
             .then((data) => {
               this.users = data;
