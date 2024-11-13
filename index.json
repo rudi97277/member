@@ -16,27 +16,28 @@
     },
     
     {
-        "name" : "Astrid Melani Nainggolan",
+        "name" : "Astrid Melani <br>Nainggolan",
         "image": "astrid.jpg",
-        "status" : "lulus"
+        "status" : "graduated",
+        "graduation_date" : "2024-11-13"
     },
     {
         "name" : "Denny mario",
         "image": "deni.jpg",
-        "status" : "lulus"
+        "status" : "graduated"
     },
     {
-        "name" : "Dea Ananda Dwi Pertiwi",
+        "name" : "Dea Ananda <br>Dwi Pertiwi",
         "image": "dea.jpg",
-        "status" : "lulus"
+        "status" : "graduated"
     },
     {
         "name" : "Farhan Febryan",
         "image": "farhan.jpg",
-        "status" : "working"
+        "status" : "planning"
     },
     {
-        "name" : "Isramiraza Ilma Redanda",
+        "name" : "Isramiraza Ilma <br>Redanda",
         "image": "isra.jpg",
         "status" : "working"
     },
@@ -48,10 +49,10 @@
     {
         "name" : "Muhammad Ferary",
         "image": "feri.jpg",
-        "status" : "lulus"
+        "status" : "graduated"
     },
     {
-        "name" : "Mhd. Mahmudi Zukri Lubis",
+        "name" : "Mhd. Mahmudi Zukri <br>Lubis",
         "image": "zukri.jpg",
         "status" : "working"
     },
@@ -74,6 +75,11 @@
         "name" : "Ricki Rinaldi Manik",
         "image": "ricki.jpg",
         "status" : "working"
+    },
+    {
+        "name" : "Rizky Fitria Haya",
+        "image": "rizky.jpg",
+        "status" : "graduated"
     },
     {
         "name" : "Rudianto Sihombing",
