@@ -34,11 +34,16 @@
     {
         "name" : "Farhan Febryan",
         "image": "farhan.jpg",
-        "status" : "planning"
+        "status" : "graduated"
     },
     {
         "name" : "Isramiraza Ilma <br>Redanda",
         "image": "isra.jpg",
+        "status" : "working"
+    },
+    {
+        "name" : "Jerico Ahmad <br>Almagrabi",
+        "image": "jerico.jpg",
         "status" : "working"
     },
     {
