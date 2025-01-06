@@ -34,7 +34,8 @@
     {
         "name" : "Farhan Febryan",
         "image": "farhan.jpg",
-        "status" : "graduated"
+        "status" : "graduated",
+        "graduation_date": "2025-01-02"
     },
     {
         "name" : "Isramiraza Ilma <br>Redanda",
